@@ -9,3 +9,7 @@ source ./.env
 #PHP
 
 php wp-cli.phar core install --url=$WP_HOME --title=Example --admin_user=$WP_ADMIN --admin_password=$WP_PWD --admin_email=$WP_EMAIL --allow-root
+
+php wp-cli.phar plugin activate flash_toolkit
+php wp-cli.phar plugin activate panel
+php wp-cli.phar plugin activate demo_importer

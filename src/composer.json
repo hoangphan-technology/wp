@@ -26,10 +26,63 @@
   "config": {
     "preferred-install": "dist"
   },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
   "repositories": [
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "flash_toolkit/flash_toolkit",
+        "type": "wordpress-plugin",
+        "version": "1.0",
+        "dist": {
+          "url": "private/flash-toolkit.1.1.8.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "siteorigin/panel",
+        "type": "wordpress-plugin",
+        "version": "2.10.5",
+        "dist" : {
+          "url": "private/siteorigin-panels.2.10.5.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "themegrill/demo_importer",
+        "type": "wordpress-plugin",
+        "version": "1.5.7",
+        "dist" : {
+          "url": "private/themegrill-demo-importer.1.5.7.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -39,19 +92,14 @@
     "oscarotero/env": "^1.1.0",
     "roots/wordpress": "5.1.1",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "flash_toolkit/flash_toolkit": "^1.0",
+    "siteorigin/panel": "^2.10",
+    "themegrill/demo_importer": "^1.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
     "roave/security-advisories": "dev-master"
-  },
-  "extra": {
-    "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
-    },
-    "wordpress-install-dir": "web/wp"
   },
   "scripts": {
     "post-root-package-install": [

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b15c5b4439fe8f0147b9ff3a022945a1",
+    "content-hash": "3fea1873ecabcfe134a93c924926e434",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,18 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "flash_toolkit/flash_toolkit",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "private/flash-toolkit.1.1.8.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "oscarotero/env",
@@ -411,6 +423,18 @@
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
+            "name": "siteorigin/panel",
+            "version": "2.10.5",
+            "dist": {
+                "type": "zip",
+                "url": "private/siteorigin-panels.2.10.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "symfony/polyfill-ctype",
             "version": "v1.10.0",
             "source": {
@@ -467,6 +491,18 @@
                 "portable"
             ],
             "time": "2018-08-06T14:22:27+00:00"
+        },
+        {
+            "name": "themegrill/demo_importer",
+            "version": "1.5.7",
+            "dist": {
+                "type": "zip",
+                "url": "private/themegrill-demo-importer.1.5.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "vlucas/phpdotenv",
