@@ -9,4 +9,7 @@ ENV INSTALL_DIR /var/www/html
 RUN curl -sS https://getcomposer.org/installer | php \
     && mv composer.phar /usr/local/bin/composer
 
+RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
+	&& chmod +x wp-cli.phar
+
 WORKDIR $INSTALL_DIR
