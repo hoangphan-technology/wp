@@ -1,8 +1,8 @@
 install-project:
-	docker exec -it --user www-data my-php ./install.sh
+	docker exec -it --user www-data wp-php ./install.sh
 
-inside-php-root:
-	docker exec -it my-php bash
+shell-root:
+	docker exec -it u root wp-php bash
 
-inside-php:
-	docker exec -it --user www-data my-php bash
+shell:
+	docker exec -it --user www-data wp-php bash

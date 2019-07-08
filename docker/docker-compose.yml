@@ -2,7 +2,7 @@ version: '3'
 services:
     web:
         image: nginx:alpine
-        container_name: my-nginx
+        container_name: ${M_NGINX}
         volumes:
             - "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"
             - "./etc/ssl:/etc/ssl"
@@ -12,7 +12,7 @@ services:
             - "80:80"
             - "3000:443"
         environment:
-            - NGINX_HOST=${NGINX_HOST}
+            - NGINX_HOST=${M_NGINX}
         command: /bin/sh -c "envsubst '$$NGINX_HOST' < /etc/nginx/conf.d/default.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
         restart: always
         depends_on:
@@ -20,14 +20,14 @@ services:
             - mysqldb
     php:
         build: ./php
-        container_name: my-php
+        container_name: ${M_PHP}
         restart: always
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "../src:/var/www/html"
     myadmin:
         image: phpmyadmin/phpmyadmin
-        container_name: phpmyadmin
+        container_name: ${M_PHPADM}
         ports:
             - "8080:80"
         environment:
@@ -38,7 +38,7 @@ services:
             - mysqldb
     mysqldb:
         image: mysql:${MYSQL_VERSION}
-        container_name: mysql
+        container_name: ${M_MSQL}
         restart: always
         env_file:
             - ".env"
