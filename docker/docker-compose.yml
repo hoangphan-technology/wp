@@ -25,6 +25,7 @@ services:
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "../src:/var/www/html"
+            - "~/.gitconfig:/var/www/.gitconfig"
     myadmin:
         image: phpmyadmin/phpmyadmin
         container_name: ${M_PHPADM}
