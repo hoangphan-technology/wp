@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+docker-compose up -d && \
+echo "
+    Access Shell       : ./shell
+    Access Shell root  : ./shell root
+"

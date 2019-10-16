@@ -14,18 +14,20 @@ services:
         environment:
             - NGINX_HOST=${M_NGINX}
         command: /bin/sh -c "envsubst '$$NGINX_HOST' < /etc/nginx/conf.d/default.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
-        restart: always
+#        restart: always
         depends_on:
             - php
             - mysqldb
     php:
         build: ./php
         container_name: ${M_PHP}
-        restart: always
+#        restart: always
         volumes:
             - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
             - "../src:/var/www/html"
-            - "~/.gitconfig:/var/www/.gitconfig"
+            - "./etc/.gitconfig:/var/www/.gitconfig"
+            - "./etc/.bashrc:/var/www/.bashrc"
+            - "./etc/.gitignore_global:/var/www/.gitignore_global"
     myadmin:
         image: phpmyadmin/phpmyadmin
         container_name: ${M_PHPADM}
@@ -34,13 +36,13 @@ services:
         environment:
             - PMA_ARBITRARY=1
             - PMA_HOST=${MYSQL_HOST}
-        restart: always
+#        restart: always
         depends_on:
             - mysqldb
     mysqldb:
         image: mysql:${MYSQL_VERSION}
         container_name: ${M_MSQL}
-        restart: always
+#        restart: always
         env_file:
             - ".env"
         environment:

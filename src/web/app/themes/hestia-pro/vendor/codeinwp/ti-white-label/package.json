@@ -1,0 +1,53 @@
+{
+  "name": "ti-white-label",
+  "version": "1.0.0",
+  "description": "Themeisle White Label Module",
+  "license": "GPL-3.0+",
+  "author": "Themeisle <friends@themeisle.com>",
+  "scripts": {
+    "phpcs": "phpcs --standard=phpcs.xml",
+    "watchify": "watchify -vd -p browserify-hmr -e assets/vue/app.js -o assets/js/bundle.js",
+    "dev": "npm-run-all --parallel watchify",
+    "lint": "eslint --ext .js,.vue assets/vue/**",
+    "build": "cross-env NODE_ENV=production browserify -g envify assets/vue/app.js | uglifyjs -c warnings=false -m > assets/js/bundle.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.1",
+    "browserify-hmr": "^0.3.1",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.0",
+    "envify": "^3.4.1",
+    "grunt-phpcs": "^0.4.0",
+    "grunt-plugin-fleet": "codeinwp/grunt-plugin-fleet",
+    "grunt-version": "^1.3.0",
+    "load-project-config": "~0.2.0",
+    "node-sass": "^4.10.0",
+    "npm-run-all": "^2.1.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.13.0",
+    "uglify-js": "^2.5.0",
+    "vue-style-loader": "^4.1.1",
+    "vueify": "^9.1.0",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "vue": "^2.4.2",
+    "vue-form": "^4.10.1",
+    "vue-js-toggle-button": "^1.3.1",
+    "vue-notification": "^1.3.14",
+    "vue-resource": "^1.5.1",
+    "vuex": "^2.4.0"
+  },
+  "browserify": {
+    "transform": [
+      "vueify",
+      "babelify"
+    ]
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}
