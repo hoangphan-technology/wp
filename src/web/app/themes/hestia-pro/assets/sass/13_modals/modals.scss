@@ -11,7 +11,7 @@ $gray:                   #87a6bc;
 $gray-light:             lighten( $gray, 33% ); //#f3f6f8
 
 .modal-content {
-  @include shadow-z-5();
+  //@include shadow-z-5();
   border-radius: $border-radius-large;
   border: none;
   // Modal header
