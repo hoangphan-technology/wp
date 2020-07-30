@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d53c63f3a8022bc16d7b39dee723b6e",
+    "content-hash": "f424acbc383f855bc733bc19a870a7dc",
     "packages": [
         {
             "name": "composer/installers",
@@ -848,6 +848,24 @@
                 "standards"
             ],
             "time": "2018-12-19T23:57:18+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/kint-php-debugger",
+            "version": "2.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/kint-php-debugger/",
+                "reference": "tags/2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kint-php-debugger.2.0.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kint-php-debugger/"
         }
     ],
     "aliases": [],

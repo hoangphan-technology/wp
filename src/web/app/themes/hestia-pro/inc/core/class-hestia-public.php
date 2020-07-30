@@ -31,7 +31,7 @@ class Hestia_Public {
 
 		$stylesheet = $this->get_stylesheet();
 		// Main Stylesheet
-		wp_enqueue_style( 'hestia_style', $stylesheet, array(), apply_filters( 'hestia_version_filter', HESTIA_VERSION ) );
+		wp_enqueue_style( 'hestia_style', $stylesheet, array(), null);
 		wp_style_add_data( 'hestia_style', 'rtl', 'replace' );
 		wp_style_add_data( 'hestia_style', 'suffix', '.min' );
 
@@ -90,7 +90,7 @@ class Hestia_Public {
 		$stylesheet_dir = get_stylesheet_directory_uri();
 		$template_dir   = get_template_directory_uri();
 		if ( $template_dir === $stylesheet_dir ) {
-			return get_template_directory_uri() . '/style' . ( ( HESTIA_DEBUG ) ? '' : '.min' ) . '.css';
+			return get_template_directory_uri() . '/style' . ( ( true ) ? '' : '.min' ) . '.css';
 		}
 
 		return get_stylesheet_uri();

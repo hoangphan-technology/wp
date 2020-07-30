@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700");
 /* Grid desktop MS / No grid support */
+/* line 2, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/0_base/_placeholders.scss */
 a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
+/* line 3, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .navbar-brand,
 .carousel .sub-title,
 h4.author,
@@ -18,19 +24,23 @@ blockquote,
   font-size: 18px;
 }
 
+/* line 17, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 a:not(.btn) {
   transition: .3s ease;
 }
 
+/* line 21, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 a:not(.btn):not(.button):not(.added_to_cart):hover {
   opacity: .75;
 }
 
+/* line 26, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .media p,
 h3#ship-to-different-address {
   font-size: 16px;
 }
 
+/* line 32, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 body,
 .btn,
 .form-control,
@@ -38,6 +48,7 @@ body,
   font-size: 14px;
 }
 
+/* line 40, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar,
 .navbar a,
 .label,
@@ -47,6 +58,7 @@ body,
   font-size: 12px;
 }
 
+/* line 50, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,17 +66,20 @@ body {
   line-height: 1.618;
 }
 
+/* line 57, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 ul, ol,
 .blog-post .section-text p,
 output {
   line-height: 1.618;
 }
 
+/* line 63, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.618;
 }
 
+/* line 68, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h5.description,
 h5.subscribe-description,
 .card-product .price h4,
@@ -72,10 +87,12 @@ h4.author {
   font-weight: 300;
 }
 
+/* line 75, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h6.category {
   font-weight: 500;
 }
 
+/* line 79, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-title,
 .title,
 .card-title,
@@ -88,10 +105,12 @@ h6.category {
   font-weight: 700;
 }
 
+/* line 91, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-title {
   word-break: break-word;
 }
 
+/* line 95, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 button,
 input[type="submit"],
 input[type="button"],
@@ -100,28 +119,38 @@ input[type="button"],
   font-weight: 400;
 }
 
+/* line 104, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .btn:not(.btn-just-icon):not(.btn-fab) i {
   font-size: 18px;
 }
+
+/* line 108, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .btn.btn-just-icon {
   font-size: 20px;
   line-height: 20px;
 }
+
+/* line 112, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .btn.btn-just-icon.btn-lg {
   font-size: 22px;
 }
+
+/* line 117, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .btn i {
   font-size: 17px;
 }
 
+/* line 122, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 legend {
   font-size: 21px;
 }
 
+/* line 126, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 output {
   font-size: 14px;
 }
 
+/* line 130, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 button,
 input,
 select,
@@ -130,27 +159,36 @@ textarea {
   line-height: inherit;
 }
 
+/* line 138, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .form-control {
   font-size: 14px;
   line-height: 1.42857;
 }
 
-.form-control::-moz-placeholder, .form-group .form-control::-moz-placeholder,
+/* line 149, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
+.form-control::-moz-placeholder,
+.form-group .form-control::-moz-placeholder,
 .form-control:-ms-input-placeholder,
-.form-group .form-control:-ms-input-placeholder,
+.form-group
+.form-control:-ms-input-placeholder,
 .form-control::-webkit-input-placeholder,
-.form-group .form-control::-webkit-input-placeholder,
+.form-group
+.form-control::-webkit-input-placeholder,
 .checkbox label,
-.form-group .checkbox label,
+.form-group
+.checkbox label,
 .radio label,
-.form-group .radio label,
+.form-group
+.radio label,
 label,
-.form-group label {
+.form-group
+label {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.42857;
 }
 
+/* line 159, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .form-control::-moz-placeholder, .form-control:-ms-input-placeholder, .form-control::-webkit-input-placeholder,
 .form-group .form-control::-moz-placeholder,
 .form-group .form-control:-ms-input-placeholder,
@@ -158,175 +196,247 @@ label,
   font-weight: 400;
 }
 
+/* line 167, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .form-group label.control-label {
   font-size: 11px;
   font-weight: 400;
   line-height: 1.07143;
 }
-.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
+
+/* line 173, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
+.form-group.label-floating label.control-label,
+.form-group.label-placeholder label.control-label {
   font-size: 14px;
   line-height: 1.42857;
 }
-.form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label {
+
+/* line 179, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
+.form-group.label-static label.control-label,
+.form-group.label-floating.is-focused label.control-label,
+.form-group.label-floating:not(.is-empty) label.control-label {
   font-size: 11px;
   line-height: 1.07143;
 }
 
+/* line 187, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 label.control-label {
   font-size: 11px;
   font-weight: 400;
   line-height: 1.07143;
 }
 
+/* line 193, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 label.subscribe-label {
   font-weight: 300;
 }
 
+/* line 197, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 table > thead > tr > th {
   font-size: 17px;
   font-weight: 300;
 }
 
+/* line 202, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .help-block {
   font-size: 11px;
 }
 
+/* line 208, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-info .icon > i,
 .info .icon > i {
   font-size: 61.6px;
 }
 
+/* line 213, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .info-horizontal .icon > i {
   font-size: 36.4px;
 }
 
+/* line 218, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .media .media-heading {
   font-size: 18.2px;
 }
+
+/* line 222, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .media p {
   font-size: 16px;
   /*line-height: 25.6px;*/
 }
 
+/* line 228, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .wp-caption-text {
   font-size: 14px;
   font-weight: 700;
 }
 
+/* line 234, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .blog-post .comment-reply-link {
   font-size: 12px;
   font-weight: 400;
 }
+
+/* line 241, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .blog-post .section-blog-info .card-profile .description {
   font-size: 14px;
 }
 
+/* line 249, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .carousel .carousel-control i {
   font-size: 50px;
 }
 
+/* line 255, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card .footer .stats {
   line-height: 30px;
 }
+
+/* line 258, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card .footer .stats i {
   font-size: 18px;
 }
+
+/* line 263, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card .category i {
   line-height: 0;
 }
 
+/* line 270, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card-product .footer h4 {
   line-height: 1.2;
 }
 
+/* line 276, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card-title,
 .card-product .category {
   line-height: 1.4;
 }
 
+/* line 281, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card-pricing .card-title {
   font-size: 60px;
   line-height: 35px;
 }
+
+/* line 285, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card-pricing .card-title small {
   font-size: 18px;
 }
+
+/* line 288, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card-pricing .card-title small:first-child {
   font-size: 26px;
 }
 
+/* line 296, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .navbar-brand {
   line-height: 30px;
 }
+
+/* line 300, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .navbar-nav > li > a {
   font-weight: 400;
 }
+
+/* line 303, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .navbar-nav > li > a i {
   font-size: 20px;
 }
+
+/* line 309, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .dropdown-menu li > a {
   font-size: 13px;
 }
+
+/* line 312, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .dropdown-menu li > a > i {
   font-size: 20px;
 }
+
+/* line 316, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .dropdown-menu li > a i {
   font-size: 20px;
 }
+
+/* line 322, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .navbar .hestia-mm-heading > span {
   font-size: 14px;
   font-weight: 600;
 }
 
+/* line 328, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-mm-description {
   font-size: 12px;
   font-weight: 400;
 }
 
+/* line 334, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar {
   line-height: 40px;
 }
+
+/* line 338, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget,
 .hestia-top-bar .widget h5,
 .hestia-top-bar .widget .textwidget {
   line-height: inherit;
 }
+
+/* line 346, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_search .label-floating, .hestia-top-bar .widget.widget_product_search .label-floating {
   font-size: inherit;
 }
+
+/* line 349, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_search .label-floating.is-empty, .hestia-top-bar .widget.widget_product_search .label-floating.is-empty {
   font-size: inherit;
   font-weight: 300;
 }
+
+/* line 355, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_search .label-floating.is-focused .control-label, .hestia-top-bar .widget.widget_product_search .label-floating.is-focused .control-label {
   font-size: inherit;
   line-height: 20px;
 }
+
+/* line 363, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_search form.form-group input[type=search], .hestia-top-bar .widget.widget_product_search form.form-group input[type=search] {
   font-size: inherit;
   font-weight: 300;
 }
+
+/* line 368, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before {
   font-size: 18px;
 }
+
+/* line 375, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_shopping_cart:before {
   font-size: 18px;
 }
+
+/* line 380, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar .widget.widget_shopping_cart .cart_list li.empty {
   font-size: inherit;
   line-height: 1.2;
 }
+
+/* line 388, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar ul {
   line-height: inherit;
 }
+
+/* line 391, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar ul li a {
   font-size: inherit;
   line-height: inherit;
 }
+
+/* line 395, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-top-bar ul li a:before {
   font-size: 16px;
 }
 
+/* line 404, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .pagination a,
 .pagination span {
   font-size: 12px;
@@ -334,71 +444,97 @@ table > thead > tr > th {
   line-height: 30px;
 }
 
+/* line 414, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .footer .widget h5 {
   line-height: 1.4;
 }
 
+/* line 420, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .footer-big .footer-menu li a[href*="mailto:"],
 .footer-big .footer-menu li a[href*="tel:"] {
   font-size: 0;
 }
+
+/* line 424, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .footer-big .footer-menu li a[href*="mailto:"]:before,
 .footer-big .footer-menu li a[href*="tel:"]:before {
   font-size: 16px;
 }
+
+/* line 429, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .footer-big ul li a {
   font-weight: 500;
 }
 
+/* line 435, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h5.description {
   line-height: 1.5;
 }
 
+/* line 439, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-about {
   font-weight: 300;
 }
+
+/* line 442, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
   font-weight: 700;
 }
 
+/* line 449, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .widget h5 {
   font-weight: 700;
 }
 
+/* line 457, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .searchform:after,
 .search-form:after,
 .woocommerce-product-search:after {
   font-size: 18px;
 }
 
+/* line 464, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .header-widgets-wrapper .widget,
 .header-widgets-wrapper .widget h5,
 .header-widgets-wrapper .widget .textwidget {
   line-height: inherit;
 }
+
+/* line 471, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .header-widgets-wrapper .widget.widget_shopping_cart:before {
   font-size: 18px;
 }
+
+/* line 475, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .header-widgets-wrapper .widget.widget_shopping_cart .cart_list li.empty {
   font-size: inherit;
   line-height: 1.2;
 }
+
+/* line 482, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .header-widgets-wrapper ul {
   line-height: inherit;
 }
+
+/* line 485, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .header-widgets-wrapper ul li a {
   font-size: inherit;
   line-height: inherit;
 }
+
+/* line 489, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .header-widgets-wrapper ul li a:before {
   font-size: 16px;
 }
 
+/* line 499, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.product_list_widget li,
 .footer ul.product_list_widget li,
 ul.product_list_widget li {
   font-size: 14px;
 }
+
+/* line 502, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.product_list_widget li a,
 .footer ul.product_list_widget li a,
 ul.product_list_widget li a {
@@ -406,10 +542,13 @@ ul.product_list_widget li a {
   font-weight: 400;
 }
 
+/* line 513, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_rating_filter] li a,
 .footer div[id^=woocommerce_rating_filter] li a {
   font-weight: 300;
 }
+
+/* line 523, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_layered_nav] ul li a,
 #secondary div[id^=woocommerce_product_categories] ul li a,
 .footer div[id^=woocommerce_layered_nav] ul li a,
@@ -417,71 +556,95 @@ ul.product_list_widget li a {
   font-weight: 400;
   font-size: 14px;
 }
+
+/* line 528, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_layered_nav] ul .count,
 #secondary div[id^=woocommerce_product_categories] ul .count,
 .footer div[id^=woocommerce_layered_nav] ul .count,
 .footer div[id^=woocommerce_product_categories] ul .count {
   font-size: 14px;
 }
+
+/* line 535, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_recent_reviews] .reviewer,
 .footer div[id^=woocommerce_recent_reviews] .reviewer {
   font-size: 15px;
 }
+
+/* line 541, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_price_filter] .button,
 .footer div[id^=woocommerce_price_filter] .button {
   font-size: 12px;
 }
+
+/* line 545, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_price_filter] .price_slider,
 .footer div[id^=woocommerce_price_filter] .price_slider {
   font-size: inherit;
   line-height: inherit;
 }
+
+/* line 550, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #secondary div[id^=woocommerce_price_filter] .price_label,
 .footer div[id^=woocommerce_price_filter] .price_label {
   font-size: 14px;
 }
 
+/* line 557, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 div[id^=woocommerce_product_tag_cloud].widget a {
   font-weight: 600;
   line-height: 27px;
   font-size: 10px !important;
 }
 
+/* line 566, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 div[id^=woocommerce_layered_nav_filters].widget li a {
   font-weight: 100;
 }
 
+/* line 573, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .widget_shopping_cart.widget .remove {
   font-size: 18px;
   line-height: 18px;
   font-weight: 600;
 }
+
+/* line 580, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .widget_shopping_cart.widget .variation dt,
 .widget_shopping_cart.widget .variation dd {
   font-size: 12px;
   line-height: 14px;
 }
+
+/* line 586, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .widget_shopping_cart.widget .variation dd p {
   font-size: 12px;
   line-height: 14px;
 }
 
+/* line 593, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 aside .widget a {
   font-weight: 500;
 }
 
+/* line 597, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .star-rating {
   line-height: 1;
   font-size: 12px;
 }
 
+/* line 605, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .product_title {
   font-weight: 700;
 }
+
+/* line 609, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .summary .price,
 .woocommerce.single-product .woocommerce-variation-price .price {
   font-weight: 300;
 }
+
+/* line 613, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .summary .price del,
 .woocommerce.single-product .summary .price ins,
 .woocommerce.single-product .summary .price span,
@@ -490,44 +653,68 @@ aside .widget a {
 .woocommerce.single-product .woocommerce-variation-price .price span {
   font-weight: 300;
 }
+
+/* line 620, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .summary .price ins {
   font-weight: 400;
 }
+
+/* line 624, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .summary .price.price-unit {
   font-size: 16px;
 }
+
+/* line 631, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product div.product form.cart table.variations td.value:before {
   font-size: 12px;
 }
+
+/* line 635, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product div.product form.cart table.variations td label {
   font-weight: 400;
 }
+
+/* line 640, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product div.product form.cart .reset_variations {
   font-size: 14px;
 }
+
+/* line 645, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product div.product .woocommerce-tabs ul.tabs.wc-tabs li a {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
+
+/* line 653, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .product .woocommerce-product-rating .star-rating {
   font-size: 12px;
 }
+
+/* line 657, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .product .woocommerce-review-link {
   font-size: 14px;
 }
+
+/* line 662, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.single-product .section-text {
   font-size: 14px;
 }
+
+/* line 667, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .shop-item p {
   font-size: 14px;
 }
+
+/* line 671, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.products li.product .onsale,
 .woocommerce span.onsale {
   font-size: 12px;
   font-weight: 300;
   line-height: 50px;
 }
+
+/* line 678, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .single-product div.product form.cart .button,
 .woocommerce #respond input#submit,
 .woocommerce a.button,
@@ -539,68 +726,108 @@ aside .widget a {
   font-size: 12px;
   font-weight: 400;
 }
+
+/* line 691, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce input.button.alt {
   font-size: 12px;
   font-weight: 400;
 }
+
+/* line 696, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce input.button:disabled {
   font-size: 12px;
   font-weight: 400;
 }
+
+/* line 701, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce input.button[disabled] {
   font-size: 12px;
   font-weight: 400;
 }
+
+/* line 709, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .cart-collaterals .cart_totals th {
   font-weight: 300;
 }
+
+/* line 713, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .cart-collaterals .cart_totals td {
   font-weight: 700;
 }
+
+/* line 717, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .cart-collaterals .cart_totals .checkout-button {
   font-size: 14px;
 }
+
+/* line 724, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .product .card-product .card-description p {
   font-weight: 300;
 }
+
+/* line 731, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.products li.product .price ins {
   font-weight: 300;
 }
+
+/* line 737, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .hestia-features p {
   font-weight: 300;
 }
+
+/* line 741, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .related.products h2 {
   font-weight: 700;
 }
+
+/* line 745, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.products li.product .price {
   font-weight: 300;
 }
+
+/* line 748, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.products li.product .price.price-unit {
   font-size: 12px;
 }
+
+/* line 756, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce nav.woocommerce-pagination ul li a {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
 }
+
+/* line 762, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce nav.woocommerce-pagination ul li span {
   line-height: 30px;
 }
+
+/* line 768, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce dl.variation dd p {
   font-size: 14px;
 }
+
+/* line 772, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .col2-set .woocommerce-account-fields label.checkbox span {
   font-weight: 300;
 }
+
+/* line 776, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .woocommerce-breadcrumb {
   font-size: 12px;
 }
+
+/* line 780, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .section-text {
   font-size: 14px;
 }
+
+/* line 784, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .woocommerce-result-count {
   font-size: 14px;
 }
+
+/* line 788, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce ul.products li.product .onsale,
 .woocommerce span.onsale {
   font-size: 12px;
@@ -610,78 +837,116 @@ aside .widget a {
   width: auto;
   height: auto;
 }
+
+/* line 798, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .woocommerce-ordering:before {
   font-size: 12px;
 }
+
+/* line 803, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .product .wc-gzd-additional-info {
   font-size: 12px;
   line-height: 1.5;
 }
+
+/* line 809, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce .comment-reply-title {
   font-weight: 700;
 }
+
+/* line 814, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta .woocommerce-review__dash,
 .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta .woocommerce-review__published-date {
   font-size: 75%;
 }
+
+/* line 820, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.archive .blog-post .products li.product-category a h2 {
   line-height: 1.5;
 }
+
+/* line 823, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce.archive .blog-post .products li.product-category a h2 .count {
   font-weight: 300;
 }
 
+/* line 829, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .products .shop-item .added_to_cart {
   font-size: 10px;
 }
 
+/* line 835, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-cart .shop_table .actions .coupon .input-text {
   font-size: 14px;
 }
+
+/* line 840, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-cart table.shop_table th {
   font-size: 13px;
   font-weight: 300;
 }
+
+/* line 845, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-cart table.shop_table .product-name a {
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
 }
+
+/* line 852, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-cart table.shop_table td.actions input[type=submit], .woocommerce-cart table.shop_table td.actions button[type=submit] {
   font-size: 14px;
 }
+
+/* line 858, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-cart p.units-info {
   line-height: 1.5;
   font-size: 14px;
 }
+
+/* line 864, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-cart .wc-gzd-additional-wrapper p {
   font-size: 14px;
   font-weight: 700;
 }
 
+/* line 873, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .form-row label {
   font-weight: 300;
 }
+
+/* line 878, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .woocommerce-checkout-payment .form-row .woocommerce-form__label-for-checkbox,
 .woocommerce-checkout .woocommerce-checkout-payment li > label {
   font-weight: 400;
 }
+
+/* line 886, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .woocommerce-shipping-fields h3 label {
   line-height: 1;
 }
+
+/* line 889, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .woocommerce-shipping-fields h3 label span {
   font-weight: 300;
 }
+
+/* line 898, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .col-md-12 #customer_details label {
   font-weight: 500;
 }
+
+/* line 907, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .shop_table tr td p.units-info {
   font-size: 12px;
 }
+
+/* line 913, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-checkout .shop_table .wc-gzd-additional-info {
   font-size: 14px;
 }
 
+/* line 919, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 #add_payment_method .wc-proceed-to-checkout a.checkout-button,
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
 .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
@@ -689,35 +954,45 @@ aside .widget a {
   font-weight: 400;
 }
 
+/* line 928, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-account .woocommerce-button,
 .woocommerce-account .woocommerce-Button,
 .woocommerce-account a.button {
   line-height: 20px !important;
 }
+
+/* line 934, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-account .woocommerce-MyAccount-content h2 {
   font-weight: 600;
 }
 
+/* line 939, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .added_to_cart.wc-forward {
   font-weight: 400;
   font-size: 10px;
   line-height: 30px;
 }
 
+/* line 946, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .variations tr .label {
   font-size: 14px;
 }
 
+/* line 952, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-info,
 .woocommerce-error,
 .woocommerce-message {
   line-height: 20px;
 }
+
+/* line 957, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-info li,
 .woocommerce-error li,
 .woocommerce-message li {
   line-height: 1.5;
 }
+
+/* line 961, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-info > a.button,
 .woocommerce-error > a.button,
 .woocommerce-message > a.button {
@@ -725,128 +1000,168 @@ aside .widget a {
   font-weight: bold;
 }
 
+/* line 967, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-info a {
   font-weight: 700;
 }
 
+/* line 972, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .woocommerce-message a:not(.button) {
   font-weight: 800;
 }
 
 @media (max-width: 991px) {
+  /* line 979, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-account input.woocommerce-Button.button {
     font-size: 11px;
   }
-
+  /* line 983, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-breadcrumb {
     line-height: 33px;
   }
 }
+
 @media (min-width: 769px) {
+  /* line 990, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .navbar.full-screen-menu .navbar-nav > li a {
     font-size: 17px;
   }
 }
+
 @media (max-width: 768px) {
+  /* line 997, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   h4.author {
     font-size: 16px;
   }
-
+  /* line 1003, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-cart table.shop_table dl.variation dd,
   .woocommerce-cart table.shop_table dl.variation dt {
     font-size: 16px;
     line-height: 30px;
   }
+  /* line 1009, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-cart table.shop_table dl.variation dd p {
     font-size: 16px;
   }
+  /* line 1014, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-cart table.shop_table td.product-name {
     line-height: 30px;
   }
-
+  /* line 1023, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-checkout td.product-name dl.variation dt,
   .woocommerce-checkout td.product-name dl.variation dd {
     font-size: 16px;
   }
+  /* line 1028, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce-checkout td.product-name dl.variation dd p {
     font-size: 16px;
   }
-
+  /* line 1038, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .navbar .navbar-nav li > a > i,
   .navbar .navbar-nav li > a i {
     font-size: 22px;
   }
+  /* line 1045, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .navbar .navbar-nav li .caret {
     font-size: 20px;
   }
+  /* line 1052, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .navbar .navbar-nav li .dropdown > i,
   .navbar .navbar-nav li .dropdown i {
     font-size: 20px;
   }
+  /* line 1059, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .navbar .navbar-nav .dropdown .dropdown-menu li a {
     line-height: 20px;
   }
+  /* line 1062, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .navbar .navbar-nav .dropdown .dropdown-menu li a .caret {
     line-height: 1;
   }
 }
+
 @media (max-width: 480px) {
+  /* line 1073, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .woocommerce .woocommerce-ordering select,
   .woocommerce-page .woocommerce-ordering select {
     font-size: 12px;
   }
 }
+
+/* line 1081, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 body {
   direction: ltr;
   color: #3C4858;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
+/* line 1087, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
+/* line 1091, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 a {
   color: #9c27b0;
 }
+
+/* line 1095, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 a:hover, a:focus {
   color: #89229b;
   text-decoration: none;
 }
 
+/* line 1101, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 blockquote p {
   font-style: italic;
 }
 
+/* line 1105, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h3 {
   margin: 20px 0 10px;
 }
 
+/* line 1109, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h5 {
   margin-bottom: 15px;
 }
 
+/* line 1113, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h6.category {
   text-transform: uppercase;
 }
 
-.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {
+/* line 1117, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
+.hestia-title,
+.title,
+.card-title,
+.info-title,
+.footer-brand,
+.footer-big h4,
+.footer-big h5,
+.media .media-heading,
+.woocommerce ul.products[class*="columns-"] li.product-category h2 {
   font-family: "Roboto Slab", "Times New Roman", serif;
 }
+
+/* line 1120, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .hestia-title, .hestia-title a, .hestia-title a:hover, .title, .title a, .title a:hover, .card-title, .card-title a, .card-title a:hover, .info-title, .info-title a, .info-title a:hover, .footer-brand, .footer-brand a, .footer-brand a:hover, .footer-big h4, .footer-big h4 a, .footer-big h4 a:hover, .footer-big h5, .footer-big h5 a, .footer-big h5 a:hover, .media .media-heading, .media .media-heading a, .media .media-heading a:hover, .woocommerce ul.products[class*="columns-"] li.product-category h2, .woocommerce ul.products[class*="columns-"] li.product-category h2 a, .woocommerce ul.products[class*="columns-"] li.product-category h2 a:hover {
   color: #3C4858;
   text-decoration: none;
   word-wrap: break-word;
 }
 
+/* line 1127, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .page-header .hestia-title {
   line-height: 1.4;
 }
 
+/* line 1131, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .title-in-content {
   line-height: 1.3;
 }
 
+/* line 1135, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h1.title,
 h1.hestia-title,
 .pricing h2.title,
@@ -856,80 +1171,101 @@ h1.hestia-title,
   margin-bottom: 30px;
 }
 
+/* line 1144, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 h2.title,
 h2.hestia-title {
   margin-bottom: 10px;
 }
 
+/* line 1151, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .carousel h1.hestia-title,
 .carousel h2.title {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
+
+/* line 1156, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .carousel span.sub-title {
   display: block;
   margin: 10px 0 0;
   font-family: "Roboto Slab", "Times New Roman", serif;
 }
+
+/* line 1162, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .carousel .buttons {
   margin-top: 60px;
 }
 
+/* line 1167, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .description, .card-description, .footer-big {
   color: #999999;
 }
 
+/* line 1171, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .card-description.entry-content {
   color: #3C4858;
 }
 
+/* line 1175, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .subscribe-line-image .subscribe-description {
   color: #efefef;
 }
 
+/* line 1179, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-warning {
   color: #ff9800;
 }
 
+/* line 1183, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-primary {
   color: #9c27b0;
 }
 
+/* line 1187, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-danger {
   color: #f44336;
 }
 
+/* line 1191, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-success {
   color: #4caf50;
 }
 
+/* line 1195, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-info {
   color: #00bcd4;
 }
 
+/* line 1199, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-rose {
   color: #e91e63;
 }
 
+/* line 1203, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .text-gray {
   color: #999999;
 }
 
+/* line 1208, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .has-black-color {
   color: #000;
 }
 
+/* line 1212, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .has-white-color {
   color: #fff;
 }
 
+/* line 1216, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .has-background.has-black-background-color {
   background-color: #000;
 }
 
+/* line 1220, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .has-background.has-white-background-color {
   background-color: #fff;
 }
 
+/* line 1227, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .single-post .blog-post .section-text h1, .single-post .blog-post .section-text h2, .single-post .blog-post .section-text h3, .single-post .blog-post .section-text h4, .single-post .blog-post .section-text h5, .single-post .blog-post .section-text h6,
 .single-post .blog-post .section-text p,
 .page:not(.woocommerce-page) .blog-post .section-text h1,
@@ -941,6 +1277,8 @@ h2.hestia-title {
 .page:not(.woocommerce-page) .blog-post .section-text p {
   margin: 0 0 15px;
 }
+
+/* line 1231, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .single-post .blog-post .section-text h1.form-submit, .single-post .blog-post .section-text h2.form-submit, .single-post .blog-post .section-text h3.form-submit, .single-post .blog-post .section-text h4.form-submit, .single-post .blog-post .section-text h5.form-submit, .single-post .blog-post .section-text h6.form-submit,
 .single-post .blog-post .section-text p.form-submit,
 .page:not(.woocommerce-page) .blog-post .section-text h1.form-submit,
@@ -953,8 +1291,10 @@ h2.hestia-title {
   margin: 0 0 10px;
 }
 
+/* line 1238, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip {
   opacity: 0;
+  -webkit-transition: opacity, -webkit-transform 0.2s ease;
   transition: opacity, -webkit-transform 0.2s ease;
   transition: opacity, transform 0.2s ease;
   transition: opacity, transform 0.2s ease, -webkit-transform 0.2s ease;
@@ -962,25 +1302,36 @@ h2.hestia-title {
   -ms-transform: translate3d(0, 5px, 0);
   transform: translate3d(0, 5px, 0);
 }
+
+/* line 1239, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip.in {
   opacity: 1;
   -webkit-transform: translate3d(0, 0px, 0);
   -ms-transform: translate3d(0, 0px, 0);
   transform: translate3d(0, 0px, 0);
 }
+
+/* line 1255, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip.left .tooltip-arrow {
   border-left-color: #fff;
 }
+
+/* line 1259, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip.right .tooltip-arrow {
   border-right-color: #fff;
 }
+
+/* line 1263, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip.top .tooltip-arrow {
   border-top-color: #fff;
 }
+
+/* line 1267, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip.bottom .tooltip-arrow {
   border-bottom-color: #fff;
 }
 
+/* line 1272, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .tooltip-inner {
   min-width: 130px;
   padding: 10px 15px;
@@ -988,12 +1339,14 @@ h2.hestia-title {
   border-radius: 3px;
   color: #555;
   background: #fff;
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
   font-size: 12px;
   line-height: 1.5;
   text-transform: none;
 }
 
+/* line 1286, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -1001,9 +1354,12 @@ h2.hestia-title {
   width: 1px;
   overflow: hidden;
 }
+
+/* line 1293, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
   color: #21759b;
@@ -1021,40 +1377,54 @@ h2.hestia-title {
   /* Above WP toolbar. */
 }
 
+/* line 1315, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
 .container {
   max-width: 100%;
 }
 
 @media (min-width: 749px) {
+  /* line 1321, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .container {
     max-width: 748px;
   }
 }
+
 @media (min-width: 768px) {
+  /* line 1327, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .container {
     max-width: 750px;
   }
 }
+
 @media (min-width: 992px) {
+  /* line 1333, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .container {
     max-width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
+  /* line 1339, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/1_typography/_typography-main.scss */
   .container {
     max-width: 2000px;
   }
 }
+
+/* line 1, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/2_elements/_tables.scss */
 table,
 .table {
   width: 100%;
 }
+
+/* line 6, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/2_elements/_tables.scss */
 table > thead > tr > th,
 .table > thead > tr > th {
   border-bottom-width: 1px;
   padding: 12px 8px;
   vertical-align: middle;
 }
+
+/* line 12, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/2_elements/_tables.scss */
 table > tbody > tr > th,
 table > tfoot > tr > th,
 table > thead > tr > td,
@@ -1068,244 +1438,307 @@ table > tfoot > tr > td,
   padding: 12px 8px;
   vertical-align: middle;
 }
+
+/* line 21, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/2_elements/_tables.scss */
 table > tbody > tr,
 .table > tbody > tr {
   border-bottom: 1px solid #eee;
 }
+
+/* line 24, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/2_elements/_tables.scss */
 table > tbody > tr:last-child,
 .table > tbody > tr:last-child {
   border-bottom: 0;
 }
 
+/* line 1, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .search-no-results .search-form, .error404 .search-form {
   margin-top: 40px;
 }
 
+/* line 5, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 #authors-on-blog {
   padding: 80px 0;
 }
+
+/* line 7, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 #authors-on-blog .card-profile {
   text-align: left;
 }
+
+/* line 11, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 #authors-on-blog .col-ms-6:nth-child(2n+1) {
   clear: both;
 }
 
+/* line 16, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post {
   word-wrap: break-word;
 }
+
+/* line 18, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-text {
   padding-bottom: 0;
 }
+
+/* line 20, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-text p {
   margin-bottom: 30px;
 }
+
+/* line 24, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-blog-info {
   padding-top: 15px;
 }
+
+/* line 28, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-blog-info .entry-categories span {
   font-size: 10px;
 }
+
+/* line 33, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-blog-info .entry-categories, .blog-post .section-blog-info .entry-tags {
   word-break: break-all;
 }
+
+/* line 35, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-blog-info .entry-categories span, .blog-post .section-blog-info .entry-tags span {
   display: inline-block;
   margin: 5px;
 }
+
+/* line 41, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-blog-info .entry-categories a {
   display: inline-block;
   padding: 2px 2px;
   color: #fff;
 }
+
+/* line 47, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-blog-info .card-profile {
   margin-top: 0;
   text-align: left;
 }
 
+/* line 54, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 dl dd, pre {
   margin-bottom: 30px;
 }
 
+/* line 58, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .alignleft .avatar {
   margin-right: 24px;
 }
 
+/* line 62, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .alignright .avatar {
   margin-left: 24px;
 }
 
+/* line 66, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 img.centered, .aligncenter {
   display: block;
   margin: 0 auto 24px;
 }
 
+/* line 71, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 img.alignnone {
   margin-bottom: 12px;
 }
 
+/* line 75, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .alignleft {
   float: left;
   text-align: left;
 }
 
+/* line 80, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .alignright {
   float: right;
   text-align: right;
 }
 
+/* line 85, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 img.alignleft, .wp-caption.alignleft {
   margin: 0 24px 24px 0;
   margin: 0 2.4rem 2.4rem 0;
 }
 
+/* line 90, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 img.alignright, .wp-caption.alignright {
   margin: 0 0 24px 24px;
 }
 
+/* line 94, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .wp-caption-text {
   padding-top: 10px;
   text-align: center;
 }
 
+/* line 99, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .gallery-caption {
   padding-top: 10px;
 }
 
+/* line 103, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .gallery .gallery-item {
   padding: 5px;
 }
 
+/* line 107, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .gallery img {
   border: none !important;
   border-radius: 6px;
+  -webkit-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
+/* line 114, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .bypostauthor {
   display: block;
 }
 
+/* line 119, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .related-posts .hestia-title {
   margin-bottom: 50px;
 }
+
+/* line 124, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .related-posts .category a:not(:last-child):after {
   content: ", ";
 }
 
+/* line 131, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .single-post .blog-post .section-text .title-in-content {
   margin-bottom: 0;
 }
 
+/* line 135, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .blog-post .section-text .author.meta-in-content {
   opacity: .9;
   margin-bottom: 20px;
   font-size: 15px;
 }
 
+/* line 141, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .flex-row {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
+/* line 148, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .layout-alternative2 .category {
   padding-top: 10px;
 }
 
+/* line 153, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .alignfull, .alignwide {
   width: unset;
   max-width: unset;
 }
 
+/* line 158, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/4_blog/_content.scss */
 .hestia-hidden {
   display: none;
 }
 
+/* line 10, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 h1 {
   font-size: 42px;
 }
 
+/* line 14, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 h2 {
   font-size: 37px;
 }
 
+/* line 18, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 h3 {
   font-size: 32px;
 }
 
+/* line 22, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 h4 {
   font-size: 27px;
 }
 
+/* line 26, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 h5 {
   font-size: 23px;
 }
 
+/* line 30, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 h6 {
   font-size: 18px;
 }
 
 @media (max-width: 768px) {
+  /* line 35, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   h1 {
     font-size: 36px;
   }
-
+  /* line 39, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   h2 {
     font-size: 32px;
   }
-
+  /* line 43, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   h3 {
     font-size: 28px;
   }
-
+  /* line 47, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   h4 {
     font-size: 24px;
   }
-
+  /* line 51, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   h5 {
     font-size: 21px;
   }
-
+  /* line 55, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   h6 {
     font-size: 18px;
   }
 }
+
+/* line 60, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 a {
   text-decoration: none;
 }
 
+/* line 64, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 15px;
   border-left: 5px solid #eee;
 }
+
+/* line 69, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 blockquote p {
   margin: 0;
 }
 
+/* line 74, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 .mce-item-table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 78, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 .mce-item-table,
 .mce-item-table td,
 .mce-item-table th,
 .mce-item-table caption {
   border: none;
 }
+
+/* line 86, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 .mce-item-table tr > th,
 .mce-item-table tr > td {
   border-bottom-width: 1px;
   border-bottom: 1px solid #ddd;
 }
 
+/* line 94, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
 body {
   box-sizing: border-box;
   font-size: 18px;
@@ -1315,8 +1748,11 @@ body {
 }
 
 @media (max-width: 992px) {
+  /* line 103, ../../../Projects/hoangphuong.org/src/web/app/themes/hestia-pro/assets/sass/editor-style.scss */
   body {
     max-width: 100%;
     width: 100%;
   }
 }
+
+/*# sourceMappingURL=editor-style.css.map */

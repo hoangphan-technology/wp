@@ -50,8 +50,8 @@ class Hestia_Team_Section extends Hestia_Abstract_Main {
 		$default_subtitle = false;
 		$default_content  = false;
 		if ( current_user_can( 'edit_theme_options' ) ) {
-			$default_title    = esc_html__( 'Meet our team', 'hestia-pro' );
-			$default_subtitle = esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'hestia-pro' );
+// 			$default_title    = esc_html__( 'Meet our team', 'hestia-pro' );
+// 			$default_subtitle = esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'hestia-pro' );
 			$default_content  = Hestia_Defaults_Models::instance()->get_team_default();
 		}
 		$hestia_team_title    = get_theme_mod( 'hestia_team_title', $default_title );
