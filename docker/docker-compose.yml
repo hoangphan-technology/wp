@@ -37,7 +37,7 @@ services:
         depends_on:
             - mysqldb
     mysqldb:
-        image: mysql:${MYSQL_VERSION}
+        image: mysql:5.7
         env_file:
             - ".env"
         environment:
