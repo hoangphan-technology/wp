@@ -20,7 +20,7 @@ $ [Thu Jul 30 14:15:52 2020] PHP 7.4.4 Development Server (http://0.0.0.0:3000)
 ## Getting image & Starting
 ```bash
 $ docker pull nginx
-$ docker container run --name phn -v $(pwd)/src:/usr/shalsre/nginx/html:ro -p8080:80  nginx
+$ docker container run --rm --name phn -v $(pwd):/usr/share/nginx/html:ro -p8080:80  nginx
 
 ```
 
@@ -36,4 +36,11 @@ $ docker  container logs phn -f
 > Resource Usage
 ```bash
 $ docker  container stats phn
+```
+
+## Down...
+```bash
+$ docker container stop phn
+$ docker container rm -f phn
+
 ```
