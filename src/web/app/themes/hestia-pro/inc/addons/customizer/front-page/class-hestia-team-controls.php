@@ -19,7 +19,7 @@ class Hestia_Team_Controls extends Hestia_Front_Page_Section_Controls_Abstract {
 	protected function set_section_data() {
 		return array(
 			'slug'     => 'team',
-			'title'    => esc_html__( 'Team', 'hestia-pro' ),
+			'title'    => esc_html__( 'Podcast header', 'hestia-pro' ),
 			'priority' => 30,
 		);
 	}
@@ -30,8 +30,8 @@ class Hestia_Team_Controls extends Hestia_Front_Page_Section_Controls_Abstract {
 	 * @return void
 	 */
 	public function change_controls() {
-		$this->change_customizer_object( 'setting', 'hestia_team_title', 'default', esc_html__( 'Meet our team', 'hestia-pro' ) );
-		$this->change_customizer_object( 'setting', 'hestia_team_subtitle', 'default', esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'hestia-pro' ) );
+		$this->change_customizer_object( 'setting', 'hestia_team_title', 'default', esc_html__( 'WEEKLY LEADERSHIP LESSONS FOR LASTING SUCCESS.', 'hestia-pro' ) );
+		//$this->change_customizer_object( 'setting', 'hestia_team_subtitle', 'default', esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'hestia-pro' ) );
 	}
 
 	/**
@@ -45,6 +45,11 @@ class Hestia_Team_Controls extends Hestia_Front_Page_Section_Controls_Abstract {
 	 * Add controls that are specific for this section.
 	 */
 	private function add_content_control() {
+	    $this->add_control(
+	        new Hestia_Customizer_Control(
+	            ''
+            )
+        );
 		$this->add_control(
 			new Hestia_Customizer_Control(
 				'hestia_team_content',
